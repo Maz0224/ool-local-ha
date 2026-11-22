@@ -1,0 +1,13 @@
+1. Create a new public GitHub repository (suggested name: ool-local-ha).
+2. Extract this ZIP. Upload the FILES and FOLDERS inside to the repository root (not the ZIP itself).
+3. Edit custom_components/ool_local/manifest.json on GitHub:
+   Replace REPLACE_USERNAME with your actual GitHub username.
+   If you used another repo name, also replace ool-local-ha in those URLs.
+4. Confirm the repo root has hacs.json, README.md and custom_components/ool_local/manifest.json.
+5. On HA 2026.11+: Settings > Marketplace > Add from link > your repo URL > install.
+   On older HA: HACS > 3 dots > Custom repositories > your URL > Integration > Add > Download.
+6. Settings > Devices & services > Add integration > Orchestra of Lights.
+7. Enter your hub IP, then paste the complete exported ool_ha_devices.json text from OOL Studio V6.
+8. Test one reliable light. If the stuck net light remains selected on hub, the integration will block unsafe commands.
+
+No personal JSON exports or pcapng files should be uploaded to public GitHub.

@@ -1,0 +1,9 @@
+# NEVER publish a private OOL Studio device export or Home Assistant credentials
+ool_ha_devices.json
+*ool_ha_devices.json
+*.pcapng
+*.pyc
+__pycache__/
+.env
+secrets.yaml
+*.log
