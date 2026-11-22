@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Orchestra of Lights hub",
+        "description": "Enter the IPv4 address of your OOL hub. The hub is only queried for its paired-device list.",
+        "data": {
+          "host": "Hub IP address"
+        }
+      },
+      "import": {
+        "title": "Import your OOL Studio devices",
+        "description": "In OOL Studio V6, click EXPORT HA SETTINGS. Open the exported ool_ha_devices.json file in Notepad, copy everything, and paste it below. Your private device list is stored in Home Assistant, not published to GitHub.",
+        "data": {
+          "settings_json": "OOL Studio export JSON"
+        }
+      }
+    },
+    "error": {
+      "invalid_host": "Enter a valid IPv4 address.",
+      "cannot_connect": "Cannot reach the hub. Verify the IP and that the hub is online.",
+      "invalid_settings": "Invalid JSON or missing device IDs. Paste the complete OOL Studio export."
+    },
+    "abort": {
+      "already_configured": "This OOL hub is already configured."
+    }
+  }
+}
