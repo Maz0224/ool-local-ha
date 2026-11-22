@@ -1,0 +1,12 @@
+{
+  "domain": "ool_local",
+  "name": "Orchestra of Lights (Local Experimental)",
+  "version": "0.2.0",
+  "documentation": "https://github.com/REPLACE_USERNAME/ool-local-ha#readme",
+  "codeowners": [],
+  "config_flow": true,
+  "integration_type": "hub",
+  "iot_class": "local_push",
+  "requirements": [],
+  "issue_tracker": "https://github.com/REPLACE_USERNAME/ool-local-ha/issues"
+}
